@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.card {
+  /* border: 2px solid ; */
+  width: 200px;
+  box-shadow: 0 2px 5px black;
+}
+.card-color {
+  /* border: 2px solid ; */
+  background-color: black;
+  color: black;
+  height: 13rem;
+}
+.color-text {
+  /* color: white; */
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  padding: 15px;
+}
+.color-text > h1 {
+  font-size: 1.4rem;
+  /* border: 2px solid; */
+}
+.color-text > p {
+  font-size: 0.8rem;
+  text-align: center;
+  /* border: 2px solid; */
+}
